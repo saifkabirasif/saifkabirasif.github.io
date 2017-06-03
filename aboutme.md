@@ -1,16 +1,17 @@
 ---
 layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: About Me
+subtitle: An Engineer by Profession! A Data Science Enthusiast by Passion!
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+My name is Saif Kabir Asif. I have the following qualities:
 
-- I rock a great mustache
+- I rock a great beard
 - I'm extremely loyal to my family
+- Trying to get into data science
 
 What else do you need?
 
-### my history
+### My History
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+Born and raised in Dhaka, Bangladesh. After studying for 16 years and working for 5 years as a Telecommunications Engineers and Strategist, I found myself attracted to everything data. Now, I'm here hoping for a new start with Data Science.
