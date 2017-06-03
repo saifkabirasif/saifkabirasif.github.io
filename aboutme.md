@@ -14,4 +14,4 @@ What else do you need?
 
 ### My History
 
-Born and raised in Dhaka, Bangladesh. After studying for 16 years and working for 5 years as a Telecommunications Engineers and Strategist, I found myself attracted to everything data. Now, I'm here hoping for a new start with Data Science.
+Born and raised in Dhaka, Bangladesh. After studying for 16 years and working for 5 years as a Telecommunications Engineer and Tech Strategist, I found myself attracted to everything data. Now, I'm here hoping for a new start with Data Science.
