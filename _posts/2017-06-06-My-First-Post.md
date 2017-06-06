@@ -1,15 +1,13 @@
 ---
 layout: post
 title: Hello, It's Me!
+subtitle: Setting the Vision
 image: /img/Hello.png
 tags:
   - random
   - exciting-stuff
 published: true
 ---
-# Setting the Vision
-
-
 **Hi,**
 
 Thanks for visiting my blog and taking time to read the first post. I created this first post not only to say hello to the world (which has become customary at the start of any digital voyage) but also to set my vision for the blog. The reason behind this is any plan or strategy should begin with a vision and some specific objectives so that you have a reference point in terms of where your plan is. Without much further ado, lets get on with the vision (Dreams some say) of this small endeavor.
