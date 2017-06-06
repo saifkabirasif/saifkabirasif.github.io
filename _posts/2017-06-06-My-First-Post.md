@@ -23,4 +23,5 @@ Now that the grand vision is set, let's move on to the specific objectives. The 
 I'll leave it here for today. If you are reading up to this, thank you for bearing with my not so eloquent writing. 
 
 **Thanks,**
+
 Saif
