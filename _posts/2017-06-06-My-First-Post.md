@@ -2,6 +2,7 @@
 layout: post
 title: Hello, It's Me!
 subtitle: Setting the Vision
+social-share:true
 image: /img/Hello.png
 tags:
   - random
