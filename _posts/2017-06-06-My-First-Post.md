@@ -1,12 +1,14 @@
 ---
 layout: post
 title: Hello, It's Me!
-image: /img/hello.png
+image: /img/Hello.png
 tags:
   - random
   - exciting-stuff
 published: true
 ---
+# Setting the Vision
+
 
 **Hi,**
 
