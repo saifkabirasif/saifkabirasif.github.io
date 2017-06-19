@@ -90,7 +90,7 @@ url-pretty: "saifkabirasif.com"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Misc --- #
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
-disqus: "saifkabirasif"
+disqus: "saifkabirasif-com"
 
 # Fill in your Google Analytics ID to track your website using GA
 google_analytics: "UA-101224843-2"
