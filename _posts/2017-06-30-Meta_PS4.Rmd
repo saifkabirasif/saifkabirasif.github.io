@@ -1,0 +1,270 @@
+---
+layout: post
+title: ""
+output: 
+  prettydoc::html_pretty:
+    theme: cayman
+    highlight: github
+    toc: true
+
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Intro
+
+Metacritic is a website that aggregates reviews of media products: music albums, video games, films, TV shows, and formerly, books.For each product, the scores from each review are averaged (a weighted average).It has been described as the video game industry's "premier" review aggregator. (Copied from Wikipedia...Where else?)
+
+Though it has its flaws(Who hasn't got one?), but personally I prefer metacritic over other aggregator sites due to its final ratings usually align with my own ratings. So, to kickstart this blog, I have chosen to start a series of analysis on Metacritic. Today, we start with Playstation-4, the undisputed king of console gaming this generation. In coming weeks, I will be adding other gaming platforms and if time allows, will venture into other media territories.
+
+### Source Data
+
+The data has been collected through days of webscraping to ensure that my endeavour does not result in spamming requests to one of my favourite sites. For the same reason, I will not be sharing the scrapper code.But good news is that, I'm planning to create a CRAN package in the coming days. 
+
+The analysis below is based on all the games release before ***1st June,2017***.
+Now off with the analysis.
+
+
+
+```{r Age, echo=FALSE,warning=FALSE,message=FALSE,include=FALSE}
+library(rvest)
+library(httr)
+library(stringr)
+library(dplyr)
+library(highcharter)
+df<-readRDS("D:/Shiny/Projects/Metacritic/Metacritic_PS4")
+df_bf_Clean<-df
+
+df_Clean<-df_bf_Clean%>%
+  distinct(url_internal,.keep_all=TRUE)%>%  # Duplicate Delete
+  mutate(Content_Genre=str_to_title(str_split(url_internal,"/")[[1]][4]),   # Get Info from URL
+         Content_Platform=str_to_title(str_split(url_internal,"/")[[1]][5]),
+         Release_Date_Clean=as.Date(Release_Date,"%b %d, %Y")
+         )%>%
+  mutate_if(is.factor, as.character) %>%
+  mutate(Rls_Month=format(as.Date(Release_Date_Clean),"%Y-%b"),
+         Exceptional_Release_Critic=(CriticScore_Meta>=90 & CriticScore_Meta!="NAv" & CriticScore_Meta!="tbd" ),
+         Great_Release_Critic=(CriticScore_Meta>=80 & CriticScore_Meta!="NAv" & CriticScore_Meta!="tbd" ),
+         Good_Release_Critic=(CriticScore_Meta>=70 & CriticScore_Meta!="NAv" & CriticScore_Meta!="tbd" ),
+         Exceptional_Release_User=(UserScore_Meta>=9 & UserScore_Meta!="NAv" & UserScore_Meta!="tbd" ),
+         Great_Release_User=(UserScore_Meta>=8 & UserScore_Meta!="NAv" & UserScore_Meta!="tbd" ),
+         Good_Release_User=(UserScore_Meta>=7 & UserScore_Meta!="NAv" & UserScore_Meta!="tbd" ),
+         Rated_Critic=(CriticScore_Meta!="NAv" & CriticScore_Meta!="tbd" ),
+         Rated_User=(UserScore_Meta!="NAv" & UserScore_Meta!="tbd" )
+         )
+
+An_Rating<-df_Clean%>%
+  filter(Release_Date_Clean<"2017-06-01")%>%
+  group_by(Rating)%>%
+  summarise(Count=n())
+
+highchart(width=400,height = 400)%>%
+  hc_chart(type = "pie",options3d = list(enabled = F, alpha = 70, beta = 0))%>%
+  hc_plotOptions(pie=list(innerSize='50%'))%>%
+  hc_add_series_labels_values(An_Rating$Rating,An_Rating$Count)%>%
+  hc_title(verticalAlign="middle",text="Rating",align="center")
+
+```
+
+
+### Classification
+
+The score classification is done as follows:
+
+*   **Rated** : Titles having minimum number of reviews as per metacritic policy
+*   **Exceptional**: Titles with Critic Metascore>=90 or User Score>=9
+*   **Great**: Titles with Critic Metascore>=80 or User Score>=8
+*   **Good**: Titles with Critic Metascore>=70 or User Score>=7
+    
+As you can see, we refrained from categorizing anything lower than 70 because a console is defined by the good games it have. Moreover, due to wide availability of variety of game development tools, a lot of low quality games flooding the market and they can't really affect the reception of a console is.
+
+
+### Critical Acclaim
+
+In our analyis period of **43 months** starting from **December,2013** to **June,2017**, PS4 saw a release of whooping **1888 titles**. But only **1119** were rated by critics which is **59%** of total. It goes on to show the abundance of low level releases.**October,2016** saw most number of releases and rated releases with numbers of 106 and 75 respectively.
+
+**Exceptional Releases** were few and far between with **18 titles** garnering top plaudits wiht maximum of 03 in **May,2016**. Another thing of note is that these titles spanned **15 different months** with longest wait being **8 months** between two exceptional releases.
+
+Lowering the level to **Great Releases or Better**, PS4 gave us **234 titles** giving at least 1 great release in all months except for **July,2016**.
+
+Going even lower to **Good Releases or Better**, **661 titles**- a whooping **59% of rated releases** garnered critic score>=70. 
+
+```{r Critic_1, echo=FALSE,warning=FALSE,message=FALSE}
+An_Release<-df_Clean%>%
+  filter(Release_Date_Clean<"2017-06-01")%>%
+  group_by(Rls_Month)%>%
+  summarise(Count=n(),
+            Rated=sum(Rated_Critic),
+            Exceptional_Release=sum(Exceptional_Release_Critic),
+            Great_Release=sum(Great_Release_Critic),
+            Good_Release=sum(Good_Release_Critic)
+            )
+
+highchart(width=NULL,height = NULL)%>%
+  hc_chart(type = "column",options3d = list(enabled = F, alpha = 70, beta = 0))%>%
+  hc_plotOptions(pie=list(innerSize='50%'),column=list(color="#015a9e"),line=list(color="#bc0d0d"))%>%
+  hc_add_series_labels_values(An_Release$Rls_Month,An_Release$Count,name="# of Releases")%>%
+  hc_add_series(An_Release$Rated,name="Rated",type="column",color="#f70000",pointPlacement=-0.3,pointPadding=0.3)%>%
+  hc_add_series(An_Release$Exceptional_Release,name="Exceptional",type="line",color="#22d100")%>%
+  hc_add_series(An_Release$Great_Release,name="Great",type="line",color="#bfd100")%>%
+  hc_add_series(An_Release$Good_Release,name="Good",type="line",color="#d14100")%>%
+  hc_title(text="Release and Critically Acclaimed Title by Month")%>%
+  hc_xAxis(categories = An_Release$Rls_Month)%>%
+  hc_tooltip(table=TRUE,sort=TRUE)
+```
+
+Zooming in to the releases, we observe that Sony's platform saw release of atleast 5 good titles every month since **March,2014**. No wonder, that Playstation-4 kept us hooked this long.
+
+```{r Critic_2, echo=FALSE,warning=FALSE,message=FALSE}
+highchart(width=NULL,height = NULL)%>%
+  hc_chart(type = "column",options3d = list(enabled = F, alpha = 70, beta = 0))%>%
+  hc_plotOptions(pie=list(innerSize='50%'),column=list(color="#015a9e"),line=list(color="#bc0d0d"))%>%
+  hc_add_series(An_Release$Exceptional_Release,name="Exceptional",type="line",color="#22d100")%>%
+  hc_add_series(An_Release$Great_Release,name="Great",type="line",color="#bfd100")%>%
+  hc_add_series(An_Release$Good_Release,name="Good",type="line",color="#d14100")%>%
+  hc_title(text="Critically Acclaimed Title by Month")%>%
+  hc_xAxis(categories = An_Release$Rls_Month)%>%
+  hc_tooltip(table=TRUE,sort=TRUE)
+```
+
+### User Appreciation
+
+Moving on to User Scores, users were more inclined to rate a game with **1275 titles** were rated - **67.5%** of total. 
+
+Users were far less welcoming in terms of **Exceptional Releases** as they rated only **7 titles** higher than 9 on average.
+
+Lowering the level to **Great Releases or Better**, User rated **139 titles** as great or better.
+
+It does not look better even if we go even lower to **Good Releases or Better**, **575 titles**- a measly **45% of rated releases** garnered user score>=7. It goes on to show that users are harder to please than critics (or maybe console fan wars are reason behind most titles waltzing in mediocrity).
+
+```{r User_1, echo=FALSE,warning=FALSE,message=FALSE}
+An_Release_User<-df_Clean%>%
+  filter(Release_Date_Clean<"2017-06-01")%>%
+  group_by(Rls_Month)%>%
+  summarise(Count=n(),
+            Rated=sum(Rated_User),
+            Exceptional_Release=sum(Exceptional_Release_User),
+            Great_Release=sum(Great_Release_User),
+            Good_Release=sum(Good_Release_User)
+  )
+
+
+highchart(width=NULL,height = NULL)%>%
+  hc_chart(type = "column",options3d = list(enabled = F, alpha = 70, beta = 0))%>%
+  hc_plotOptions(pie=list(innerSize='50%'),column=list(color="#015a9e"),line=list(color="#bc0d0d"))%>%
+  hc_add_series_labels_values(An_Release_User$Rls_Month,An_Release_User$Count,name="# of Releases")%>%
+  hc_add_series(An_Release_User$Rated,name="Rated",type="column",color="#f70000",pointPlacement=-0.3,pointPadding=0.3)%>%
+  hc_add_series(An_Release_User$Exceptional_Release,name="Exceptional",type="line",color="#22d100")%>%
+  hc_add_series(An_Release_User$Great_Release,name="Great",type="line",color="#bfd100")%>%
+  hc_add_series(An_Release_User$Good_Release,name="Good",type="line",color="#d14100")%>%
+  hc_title(text="Release and User Appreciated Title by Month")%>%
+  hc_xAxis(categories = An_Release_User$Rls_Month)%>%
+  hc_tooltip(table=TRUE,sort=TRUE)
+```
+
+A zoomed view reveals, User liked the **November-2016** the most showering **40 titles** with good or better reviews.
+
+```{r User_2, echo=FALSE,warning=FALSE,message=FALSE}
+highchart(width=NULL,height = NULL)%>%
+  hc_chart(type = "column",options3d = list(enabled = F, alpha = 70, beta = 0))%>%
+  hc_plotOptions(pie=list(innerSize='50%'),column=list(color="#015a9e"),line=list(color="#bc0d0d"))%>%
+  hc_add_series(An_Release_User$Exceptional_Release,name="Exceptional",type="line",color="#22d100")%>%
+  hc_add_series(An_Release_User$Great_Release,name="Great",type="line",color="#bfd100")%>%
+  hc_add_series(An_Release_User$Good_Release,name="Good",type="line",color="#d14100")%>%
+  hc_title(text="User Appreciated Title by Month")%>%
+  hc_xAxis(categories = An_Release_User$Rls_Month)%>%
+  hc_tooltip(table=TRUE,sort=TRUE)
+```
+
+
+### Top Developers
+
+From the audience, lets move on to the developer themselves.Starting off with quantity. **Telltale Games** leads by big margin with **38 rated releases** with all those five parter episodic game releases. Unfortunately, only **17** garnered good or better reviews with only one title -**Tales From The Borderlands: Episode 5 - The Vault of the Traveler** was rated exceptional by critics.
+
+The other four top developers by quantity did not have a single exceptional title by their name even with behemoths like **Capcom** and **Ubisoft Montreal** failing to break the barrier of 90.
+
+**Zen Studios** provided a pleasant surpise with **11** of their **17** titles scoring 80 or higher (Who knew pinball can be so critically loved!).
+
+```{r Dev_Rated, echo=FALSE,warning=FALSE,message=FALSE}
+An_Developer<-df_Clean%>%
+  filter(Release_Date_Clean<"2017-06-01")%>%
+  group_by(Developer)%>%
+  summarise(Count=n(),
+            Rated=sum(Rated_Critic),
+            Exceptional_Release=sum(Exceptional_Release_Critic),
+            Great_Release=sum(Great_Release_Critic),
+            Good_Release=sum(Good_Release_Critic),
+            Only_Exceptional=sum(Exceptional_Release_Critic),
+            Only_Great=sum(Great_Release_Critic)-sum(Exceptional_Release_Critic),
+            Only_Good=sum(Good_Release_Critic)-sum(Great_Release_Critic),
+            Others=sum(Rated_Critic)-sum(Good_Release_Critic)
+            )
+
+An_Developer_Breakdown<-An_Developer%>%
+  arrange(desc(Rated))%>%
+  top_n(5,wt=Rated)
+
+  
+ 
+highchart(width=NULL,height = NULL)%>%
+  hc_chart(type = "column",options3d = list(enabled = F, alpha = 70, beta = 0))%>%
+  hc_plotOptions(pie=list(innerSize='50%'),column=list(color="#015a9e",stacking = "normal",dataLabels = list(enabled = FALSE)),line=list(color="#bc0d0d"))%>%
+  hc_title(text="Top Developer by Rated Release")%>%
+  hc_subtitle(text="Classification by Critic Score")%>%
+  hc_xAxis(categories = An_Developer_Breakdown$Developer)%>%
+  hc_yAxis(stackLabels=list(enabled=TRUE))%>%
+  hc_add_series(An_Developer_Breakdown$Others,name="Others",type="column",color="#dee0e2")%>%
+  hc_add_series(An_Developer_Breakdown$Only_Good,name="Good",type="column",color="#d14100")%>%
+  hc_add_series(An_Developer_Breakdown$Only_Great,name="Great",type="column",color="#bfd100")%>%
+  hc_add_series(An_Developer_Breakdown$Only_Exceptional,name="Exceptional",type="column",color="#22d100")%>%
+  hc_tooltip(table=TRUE,sort=TRUE)
+```
+
+Moving to quality and we got all the names we love there. The good folks of **CD Projekt Red Studio** from Poland lead with 3 exceptional releases against their name with all three games of **Witcher 3** saga in the list.
+
+Only **Blizzard** and **Naughty Dog** were able to muster multiple exceptional releases with **11** other studios having one each.
+
+
+```{r Dev_Exception, echo=FALSE,warning=FALSE,message=FALSE}
+An_Developer_Exceptional<-An_Developer%>%
+  arrange(desc(Exceptional_Release))%>%
+  top_n(5,wt=Exceptional_Release)
+
+highchart(width=NULL,height = NULL)%>%
+  hc_chart(type = "column",options3d = list(enabled = F, alpha = 70, beta = 0))%>%
+  hc_plotOptions(pie=list(innerSize='50%'),column=list(color="#015a9e",dataLabels = list(enabled = TRUE)),line=list(color="#bc0d0d"))%>%
+  hc_title(text="Top Developer with Exceptional Releases")%>%
+  hc_subtitle(text="Critic Score>=90")%>%
+  hc_legend(enabled=FALSE)%>%
+  hc_xAxis(categories = An_Developer_Exceptional$Developer)%>%
+  hc_yAxis(stackLabels=list(enabled=TRUE))%>%
+  hc_add_series(An_Developer_Exceptional$Exceptional_Release,name="Exceptional",type="column",color="#22d100")%>%
+  hc_tooltip(table=TRUE,sort=TRUE)
+  
+```
+
+Exceptional may be too difficult for most developers considering the budget of modern AAA games. Lowering down to great releases, **Zen Studios** rock the field with **11** Great or better releases with quantiy champe **Telltale Games** not far behind with **10**. 
+
+Development titan **Square Enix**, **EA Sports**, underappreciated 2D fighting game developer **Arc System Works** and punishing game champion **From Software** completes the rest of the top 5.
+
+```{r Dev_Great, echo=FALSE,warning=FALSE,message=FALSE}
+An_Developer_Great<-An_Developer%>%
+  arrange(desc(Great_Release))%>%
+  top_n(5,wt=Great_Release)
+
+highchart(width=NULL,height = NULL)%>%
+  hc_chart(type = "column",options3d = list(enabled = F, alpha = 70, beta = 0))%>%
+  hc_plotOptions(pie=list(innerSize='50%'),column=list(color="#015a9e",dataLabels = list(enabled = TRUE)),line=list(color="#bc0d0d"))%>%
+  hc_title(text="Top Developer with Great or Better Releases")%>%
+  hc_subtitle(text="Critic Score>=80")%>%
+  hc_legend(enabled=FALSE)%>%
+  hc_xAxis(categories = An_Developer_Great$Developer)%>%
+  hc_yAxis(stackLabels=list(enabled=TRUE))%>%
+  hc_add_series(An_Developer_Great$Great_Release,name="Great",type="column",color="#bfd100")%>%
+  hc_tooltip(table=TRUE,sort=TRUE)
+```
+
+That's it for now. If you like the post, feel free to share in your favourite social media. If you have any suggestions or queries, do leave a comment in the section below.
