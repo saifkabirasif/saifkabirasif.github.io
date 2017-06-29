@@ -1,9 +1,6 @@
 ---
 layout: post
-title: "
-
-
-"
+title: " <br><br><br>"
 image: /img/Hello.png
 bigimg: /img/Hello_large.jpg
 show-share: true
