@@ -10,7 +10,8 @@ layout: base
 <div class="container">
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-
+      
+     {% include toc_scroll.html html=content sanitize=true h_min=1 h_max=3 %}
       <article role="main" class="blog-post">
         {{ content }}
       </article>
