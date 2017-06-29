@@ -4,6 +4,12 @@ layout: base
 
 {% include header.html type="post" %}
 
+{% assign my_min = 3 %}
+{% assign my_max = 3 %}
+
+{% include toc_scroll.html html=content sanitize=true h_min=my_min h_max=my_max %}
+
+
 <div class="container">
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
@@ -42,10 +48,7 @@ layout: base
         {% endif %}
       </ul>
       
-      {% assign my_min = 1 %}
-      {% assign my_max = 3 %}
 
-      {% include toc_scroll.html html=content sanitize=true h_min=my_min h_max=my_max %}
       
       
       <!-- include google ads -->
