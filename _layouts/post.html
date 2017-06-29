@@ -44,6 +44,9 @@ layout: base
 
       {% if page.comments %}
         <div class="disqus-comments">
+          <!-- include google ads -->
+          {% include advertising.html %}
+          
           {% include disqus.html %}
         </div>
       {% endif %}
