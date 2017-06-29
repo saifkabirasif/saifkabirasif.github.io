@@ -1,7 +1,8 @@
 ---
 layout: post
-title: Hello, It's Me!
+title: ""
 image: /img/Hello.png
+bigimg: /img/Hello_large.jpg
 show-share: true
 tags:
   - random
