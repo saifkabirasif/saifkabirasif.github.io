@@ -28,7 +28,7 @@ navbar-links:
     - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
     - Learn markdown: "http://www.markdowntutorial.com/"
     - GitHub Pages: "https://pages.github.com/"
-  Author's home: "https://saifkabirasif.github.io/"
+  Author's home: "https://saifkabirasif.com/"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
@@ -44,7 +44,7 @@ avatar: "/img/PSX_20170603_233446.jpg"
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
   name: Saif Kabir Asif
-  email: "saifkbr011@gmail.com"
+  email: "saif.kabir.asif@gmail.com"
   facebook: mobijoker  # eg. daattali
   github: saifkabirasif    # eg. daattali
   twitter: yourname   # eg. daattali
@@ -66,7 +66,7 @@ footer-links-active:
   email: true
   twitter: false
   google-plus: false
-  github: true
+  github: false
   reddit: false
   linkedin: true
   xing: false
