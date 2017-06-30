@@ -85,6 +85,7 @@ share-links-active:
   linkedin: true
   pocket: true
   messenger: true
+  flipboard: true
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
