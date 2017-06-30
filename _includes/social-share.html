@@ -8,9 +8,10 @@
 
 {% if any-share-links %}
 <section id = "social-share-section">
+<h3 style="font-family:Script;color:crimson;">Sharing is caring. Share this story in...</h3>  
   
   <span class="sr-only">Share: </span>
-  <h4 style="font-family:Script;color:crimson;">Sharing is caring. Share this story in...</h4>
+  
   {% if site.share-links-active.twitter %}
   <!--- Share on Twitter -->
     <a href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}+{{ site.url }}{{ page.url }}"
