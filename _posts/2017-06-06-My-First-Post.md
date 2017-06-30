@@ -5,7 +5,7 @@ subtitle: ""
 image: /img/Hello.png
 bigimg: /img/Hello_large.jpg
 show-share: true
-share-img : "http://saifkabirasif.com/img/Hello_large.jpg"
+share-img : "http://saifkabirasif.com/img/Hello.png"
 tags:
   - random
   - exciting-stuff
