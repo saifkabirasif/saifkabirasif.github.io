@@ -5,7 +5,7 @@ subtitle: ""
 image: /img/Hello.png
 bigimg: /img/Hello_large.jpg
 show-share: true
-share-img : /img/Hello_large.jpg
+share-img : {{site.url}}/img/Hello_large.jpg
 tags:
   - random
   - exciting-stuff
