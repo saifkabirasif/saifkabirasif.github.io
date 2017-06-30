@@ -1,7 +1,7 @@
 
 ---
 layout: default
-title: "Search this Site"
+title: "Search this Site "
 css: "/css/search.css"
 ---
 
