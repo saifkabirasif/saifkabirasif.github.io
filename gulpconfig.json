@@ -1,7 +1,5 @@
 {
-	"remoteServer": "user@server",
-	"remotePath": "/path/to/your/public/html/directory/",
-	"cloudflareToken": "your cloudflare api token",
-	"cloudflareEmail": "your cloudflare email",
-	"cloudflareDomain": "your cloudflare domain"
+	"cloudflareToken": "c6933a5b323f1f2214a4094dc8c37f4ca9fab",
+	"cloudflareEmail": "saifkbr011@gmail.com",
+	"cloudflareDomain": "saifkabirasif.com"
 }
