@@ -56,6 +56,15 @@
       <span class="sr-only">LinkedIn</span>
     </a>
   {% endif %}
+  
+   {% if site.share-links-active.pocket %}
+  <!--- Share on LinkedIn -->
+    <a href="https://getpocket.com/save?url={{ site.url }} & title= {{ page.url }}"
+      class="btn btn-social-icon btn-linkedin" title="Share on LinkedIn">
+      <span class="fa fa-fw fa-get-pocket" aria-hidden="true"></span>
+      <span class="sr-only">Pocket</span>
+    </a>
+  {% endif %}
 
 </section>
 
