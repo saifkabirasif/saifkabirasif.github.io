@@ -28,10 +28,10 @@ layout: base
         </div>
       {% endif %}
       
-      ....
+      {% if author %}
       {% assign author = site.data.authors_cv[page.author] %}
       {% include authors.html %}
-      ....
+      {% endif %}
 
       {% if page.social-share %}
         {% include social-share.html %}
