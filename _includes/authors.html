@@ -1,0 +1,23 @@
+<div class="read-more">
+  <div class="read-more-header">
+    <a class="read-more-btn">About the Author</a>
+  </div><!-- /.read-more-header -->
+  <div class="read-more-content author-info">
+    <h3>{{author.name}}</h3>
+    <div class="author-container">
+      {% if author.picture_url %}
+        <img class="author-img" src="{{site.url}}/img/authors/{{author.picture_url}}" alt="{{author.name}}" />
+      {% endif %}
+    </div>
+    <div class="author-share">
+      <ul class="list-inline social-buttons">
+        {% if author.facebook %}
+          <li>
+            <a href="https://www.facebook.com/{{ author.facebook }}" target="_blank" title=facebook>
+              <i class="fa fa-facebook fa-fw"></i>
+            </a>
+          </li>
+        {% endif %}
+      </ul>
+    </div>
+  </div>
