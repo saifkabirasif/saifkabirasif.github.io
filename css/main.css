@@ -143,7 +143,9 @@ footer .copyright{font-size:16px;}
 .pager li a:focus{color:#FFF;background:#0085a1;border:1px solid #0085a1;}
 .pager{margin:10px 0 0;}
 .pager.blog-pager{margin-top:0;}
-@media only screen and (min-width:768px){.pager.blog-pager{margin-top:10px;}
+@media only screen and (min-width:768px){
+  .pager.blog-pager{margin-top:10px;}
+  .article {margin-right: 20px}
 }
 table{padding:0;}
 table tr{border-top:1px solid #cccccc;background-color:#ffffff;margin:0;padding:0;}
