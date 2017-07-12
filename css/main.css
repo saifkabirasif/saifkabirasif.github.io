@@ -145,7 +145,6 @@ footer .copyright{font-size:16px;}
 .pager.blog-pager{margin-top:0;}
 @media only screen and (min-width:768px){
   .pager.blog-pager{margin-top:10px;}
-  .article {margin-right: 20px}
 }
 table{padding:0;}
 table tr{border-top:1px solid #cccccc;background-color:#ffffff;margin:0;padding:0;}
@@ -166,3 +165,6 @@ td.code pre{border-width:0 0 0 2px;border-style:solid;border-color:#444;border-r
 td.gutter{padding-top:3px;}
 #social-share-section{margin-bottom:30px;}
 
+@media only screen and (max-width:768px){
+  .article {margin-right: 20px}
+}
