@@ -79,8 +79,8 @@ footer .copyright{font-size:16px;}
 .post-preview a{text-decoration:none;color:#404040;}
 .post-preview a:focus,
 .post-preview a:hover{text-decoration:none;color:#0085a1;}
-.post-preview .post-title{font-size:30px;margin-top:0;}
-.post-preview .post-subtitle{margin:0;font-weight:300;margin-bottom:10px;}
+.post-preview .post-title{font-size:30px;margin-top:0;color: #4a9cf8;}
+.post-preview .post-subtitle{margin:0;font-weight:300;margin-bottom:10px;color: #fe3b3b;}
 .post-preview .post-meta,
 .post-heading .post-meta{color:#808080;font-size:18px;font-style:italic;margin:0 0 10px;}
 .post-preview .post-entry{font-family:'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;}
@@ -89,7 +89,7 @@ footer .copyright{font-size:16px;}
 .post-image{float:right;height:192px;width:192px;margin-top:-35px;filter:grayscale(90%);}
 .post-image:hover{filter:grayscale(0%);}
 .post-image img{border-radius:100px;height:192px;width:192px;}
-.post-preview .post-read-more{font-weight:800;}
+.post-preview .post-read-more{font-weight:800;color: #4a9cf8;}
 @media only screen and (min-width:768px){.post-preview .post-title{font-size:36px;}
 }
 .blog-tags{font-family:'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;color:#999;font-size:15px;margin-bottom:30px;}
