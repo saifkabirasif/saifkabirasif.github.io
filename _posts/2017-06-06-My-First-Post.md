@@ -5,6 +5,7 @@ subtitle: ""
 image: /img/Hello.png
 bigimg: /img/Hello_large.jpg
 show-share: true
+description: "Hello World"
 author: Saif
 tags:
   - random
