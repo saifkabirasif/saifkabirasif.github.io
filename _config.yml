@@ -26,9 +26,9 @@ description: Telecom Engineer by Profession!Data Science Enthusiast by Passion!
 navbar-links:
   About Me: "aboutme"
   My Projects:
-    - Insightylitics: "http://128.199.48.137/apps/FB_Insightylitics/"
-    - Demo Cloud File Server: "http://128.199.48.137/apps/Olive/"
-  Author's home: "http://saifkabirasif.com/"
+    - Insightylitics: "https://insightylitics.com/apps/FB_Insightylitics/"
+    - Demo Cloud File Server: "https://insightylitics.com/apps/Olive/"
+  Home: "http://saifkabirasif.com/"
 nav-search: search
 
 # Image to show in the navigation bar - image must be a square (width = height)
