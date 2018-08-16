@@ -1,17 +1,18 @@
 ---
 layout: page
 title: About Me
-subtitle: An Engineer by Profession! A Data Science Enthusiast by Passion!
+subtitle: An Engineer by Profession! A Data Enthusiast by Passion!
 ---
 
 My name is Saif Kabir Asif. I have the following qualities:
 
 - I rock a great beard
 - I'm extremely loyal to my family
-- Trying to get into data science
+- They say I'm quick to learn new things
+- I'm an avid gamer and reader
 
 What else do you need?
 
 ### My History
 
-Born and raised in Dhaka, Bangladesh. After studying for 16 years and working for 5 years as a Telecommunications Engineer and Tech Strategist, I found myself attracted to everything data. Now, I'm here hoping for a new start with Data Science.
+Born and raised in Dhaka, Bangladesh. After studying for 16 years and working for 6 years as Telecommunications network analyst, Radio network planner and Strategic Planner, I found myself attracted to everything data. Now, I'm here trying to delve deeper into the world of data and upskill myself in data exploration, analysis and most importantly data-driven decision making.
