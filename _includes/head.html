@@ -23,11 +23,8 @@
 
   {% include gtm_head.html %}
   
-  {% if layout.common-js %}
-  {% for js in layout.common-js %}
-	<script src="{{ js | prepend: site.baseurl | replace: '//', '/' }}"></script>
-  {% endfor %}
-{% endif %}
+<!--Change Check-->
+<script src='https://code.jquery.com/jquery-3.1.1.min.js'></script>
   
   
   
