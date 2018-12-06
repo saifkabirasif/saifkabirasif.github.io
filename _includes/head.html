@@ -22,6 +22,23 @@
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }} {{ site.title-separator }} {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
   {% include gtm_head.html %}
+  
+  {% if layout.common-js %}
+  {% for js in layout.common-js %}
+    {% if js contains 'jquery' %}
+      <script>
+      	if (typeof jQuery == 'undefined') {
+      	  document.write('<script src="{{ js | prepend: site.baseurl | replace: "//", "/" }}"></scr' + 'ipt>');
+      	}
+      </script>
+    {% else %}
+	<script src="{{ js | prepend: site.baseurl | replace: '//', '/' }}"></script>
+    {% endif %}
+  {% endfor %}
+{% endif %}
+  
+  
+  
 
   {% if layout.common-ext-css %}
     {% for css in layout.common-ext-css %}
