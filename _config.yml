@@ -7,6 +7,7 @@
 url: "https://saifkabirasif.com"
 enforce_ssl: "saifkabirasif.com"
 baseurl: ""
+future : true
 
 # If you are building a GitHub project page then use these settings:
 #url: "http://username.github.io/projectname"
