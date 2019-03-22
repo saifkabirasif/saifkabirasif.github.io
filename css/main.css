@@ -98,7 +98,7 @@ footer .copyright{font-size:16px;}
 .post-preview .blog-tags{margin-top:5px;margin-bottom:0;}
 @media only screen and (min-width:768px){.post-preview .blog-tags{margin-top:10px;}
 }
-@media only screen and (max-width:500px){.post-image, .post-image img{height:100px;width:100px;}
+@media only screen and (max-width:768px){.post-image, .post-image img{height:100px;width:100px;}
 .post-image{width:100%;text-align:center;margin-top:0;float:left;}
 }
 .intro-header{margin:80px 0 20px;position:relative;}
