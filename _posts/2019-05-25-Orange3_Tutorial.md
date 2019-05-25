@@ -1,5 +1,5 @@
 ---
-layout: post  
+layout: cc_post  
 title: "Exploring Orange : A Beginner Friendly Data Mining Toolkit"
 subtitle: "First workflow for a well known dataset "
 image: "/img/articles/20190525_Orange/0.PNG"
@@ -18,12 +18,33 @@ tags:
 ---
 
 <style>
-
     article img {
-    max-height: 100% !important;
+        max-height: 100% !important;
 
+```css
 }
+
+h3 {
+    color: #41b0a4 !important;
+    font-weight: bolder !important;
+    }
+
+a {
+    color: rgb(65, 175, 164);
+    border-bottom: 1px solid #e4e6ca
+
+  }
+
+.navbar{
+    background-image: linear-gradient(#4ca2d4, #4c9dd4 60%, #0a3d7a);
+  }
+```
+
 </style>
+
+
+
+
 
 Lately, machine learning has become the buzzword in business community and rightly so due to the immense opportunities it offers. But one hurdle absolute beginners face is learning a new language like R or Python. Yes! they are absolutely necessary if you want to control and tune every single aspect of your workflow, But for beginners,  quickly getting to something tangible is more important to keep up the enthusiasm of learning. Today I will go through one such tool- Orange - which is perfect for teaching machine learning to beginners without getting into nitty-gritty of programming.
 
@@ -124,7 +145,7 @@ Although it was a pretty weak model building where we skipped many major steps, 
 
 ![Kaggle](/img/articles/20190525_Orange/17.jpg)
 
-## Final thoughts
+### Final thoughts
 
 As we have seen in this tutorial, it does not take whole lot of programming prowess to churn out a machine learning model but if you want to improve the model further it requires granular control on every component and there comes the programming chops and statistical know-how. For the keen explorers who wants to delve deeper to further improve the model, looking at the following will return great dividends-
 
