@@ -1,5 +1,5 @@
 ---
-layout: cc_post  
+layout: post  
 title: "Exploring Orange : A Beginner Friendly Data Mining Toolkit"
 subtitle: "First workflow for a well known dataset "
 image: "/img/articles/20190525_Orange/0.PNG"
