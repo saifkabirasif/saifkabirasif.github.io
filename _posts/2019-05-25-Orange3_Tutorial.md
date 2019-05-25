@@ -2,9 +2,9 @@
 layout: post  
 title: "Exploring Orange : A Beginner Friendly Data Mining Toolkit"
 subtitle: "First workflow for a well known dataset "
-image: "/img/articles/20190525_Orange/0.png"
-bigimg: "/img/articles/20190525_Orange/0.png"
-share-img: "/img/articles/20190525_Orange/0.png"
+image: "/img/articles/20190525_Orange/0.PNG"
+bigimg: "/img/articles/20190525_Orange/0.PNG"
+share-img: "/img/articles/20190525_Orange/0.PNG"
 date: 2019-05-25 8:53:00 +0600
 author: Saif
 categories: tutorial
