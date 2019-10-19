@@ -68,7 +68,7 @@ This is my non-exhaustive learning log with verifiable links  - not only to show
 * [Network Analysis in R](https://www.datacamp.com/statement-of-accomplishment/course/75e6bc2d83cb457820500872b094dafaff141a2e) - Datacamp
 
 
-### <img src="../img/Big_data.png" style="zoom:50%;" />  **Big Data**
+### <img src="../img/Big_Data.png" style="zoom:50%;" />  **Big Data**
 
 * [Data Science Hands-On with Open Source Tools](https://courses.cognitiveclass.ai/certificates/d26fa0e13bdf4edca6a1cdc5e6e4f7a8) - Cognitive Class -  An IBM initiative
 * [Hadoop 101](https://courses.cognitiveclass.ai/certificates/c7c59de14c93462f9312852e655d6fed) - Cognitive Class -  An IBM initiative
