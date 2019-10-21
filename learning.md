@@ -20,7 +20,6 @@ This is my non-exhaustive learning log with verifiable links  - not only to show
 
 #### Basics
 
-* [Introduction to Data Science in Python ](https://www.coursera.org/account/accomplishments/verify/EUDYPCB3LZ7C)
 * [Introduction to Data Science in Python](https://www.coursera.org/account/accomplishments/verify/EUDYPCB3LZ7C) - University of Michigan  - Coursera
 * [Applied Plotting, Charting & Data Representation in Python](https://www.coursera.org/account/accomplishments/verify/RA3TKZSFCNXK) - University of Michigan - Coursera
 * [An Introduction to Interactive Programming in Python](https://www.coursera.org/api/legacyCertificates.v1/spark/statementOfAccomplishment/972072~7161003/pdf) - Rice University - Coursera
