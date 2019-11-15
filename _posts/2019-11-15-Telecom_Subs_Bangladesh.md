@@ -1,6 +1,6 @@
 ---
 layout: post  
-title: Visualizing Bangladesh #3
+title: "Visualizing Bangladesh #3"
 subtitle: "Mobile Telecom Subscriber by Year"
 image: "/img/Telco_Subs-2019-11-08.gif"
 bigimg: "/img/Telco_Subs-2019-11-08.gif"
