@@ -34,6 +34,8 @@ This is my non-exhaustive learning log with verifiable links  - not only to show
 
 #### Network Science
 
+* [Applied Social Network Analysis in Python](https://www.coursera.org/account/accomplishments/records/938BHJVFXYGT) - University of Michigan - Coursera
+
 ### <img src="../img/R.svg" style="zoom:25%;" /> **R**
 
 #### Basics
@@ -76,6 +78,7 @@ This is my non-exhaustive learning log with verifiable links  - not only to show
 
 ### <img src="../img/certificate.png" style="zoom:30%;" /> **Multi-course specialization** 
 
+* [Applied Data Science with Python](https://www.coursera.org/account/accomplishments/specialization/certificate/CDT3LC7DV57R)  - University of Michigan - Coursera - 5 Courses - 20 Weeks
 * [Python Programming Track](https://www.datacamp.com/statement-of-accomplishment/track/0a7805367ae595950696bfc404cec2d6d404e250) - Datacamp - 4 Course, 15 Hours
 * [R Programming Track](https://www.datacamp.com/statement-of-accomplishment/track/85e6c5d2c75aecc912f0ae4159c1f49c405f4e0b) - Datacamp - 4 Course, 18 Hours
 * [Statistics Fundamentals with R Track](https://www.datacamp.com/statement-of-accomplishment/track/0197eaa2fa83ff7971cb4725e39824cf25a6917b) - Datacamp - 5 Course, 20 Hours
