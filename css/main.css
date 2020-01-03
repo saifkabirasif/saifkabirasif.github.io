@@ -21,10 +21,10 @@ img{max-width:100%;}
 .disqus-comments{margin-top:30px;}
 @media only screen and (min-width:768px){.disqus-comments{margin-top:40px;}
 }
-.navbar-custom{background:#4A9CF8;border-bottom:1px solid #EAEAEA;font-family:'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;}
+.navbar-custom{background:#d14;border-bottom:1px solid #EAEAEA;font-family:'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;}
 .navbar-custom .nav li a{text-transform:uppercase;font-size:12px;letter-spacing:1px;}
 .navbar-custom .navbar-brand,
-.navbar-custom .nav li a{font-weight:800;color:#404040;}
+.navbar-custom .nav li a{font-weight:800;color:#eee;}
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus ,
 .navbar-custom .nav li a:hover,
@@ -63,8 +63,8 @@ img{max-width:100%;}
 .navbar-custom .nav .navlinks-children{position:absolute;}
 .navbar-custom .nav .navlinks-container .navlinks-children a{padding-left:10px;border:1px solid #eaeaea;border-width:0 1px 1px;}
 }
-footer{padding:30px 0;background:#F5F5F5;border-top:1px #EAEAEA solid;margin-top:50px;font-size:14px;}
-footer a{color:#404040;}
+footer{padding:30px 0;background:#31708f;border-top:1px #EAEAEA solid;margin-top:50px;font-size:14px;}
+footer a{color:#d14;}
 footer .list-inline{margin:0;padding:0;}
 footer .copyright{font-family:Open Sans;text-align:center;margin-bottom:0;}
 footer .theme-by{text-align:center;margin:10px 0 0;}
@@ -79,8 +79,8 @@ footer .copyright{font-size:16px;}
 .post-preview a{text-decoration:none;color:#404040;}
 .post-preview a:focus,
 .post-preview a:hover{text-decoration:none;color:#0085a1;}
-.post-preview .post-title{font-size:30px;margin-top:0;color: #4a9cf8;}
-.post-preview .post-subtitle{margin:0;font-weight:300;margin-bottom:10px;color: #fe3b3b;}
+.post-preview .post-title{font-size:30px;margin-top:0;color: #337ab7;}
+.post-preview .post-subtitle{margin:0;font-weight:300;margin-bottom:10px;color: #d14;}
 .post-preview .post-meta,
 .post-heading .post-meta{color:#808080;font-size:18px;font-style:italic;margin:0 0 10px;}
 .post-preview .post-entry{font-family:'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;}
@@ -89,7 +89,7 @@ footer .copyright{font-size:16px;}
 .post-image{float:right;height:192px;width:192px;margin-top:-35px;filter:grayscale(90%);}
 .post-image:hover{filter:grayscale(0%);}
 .post-image img{border-radius:100px;height:192px;width:192px;}
-.post-preview .post-read-more{font-weight:800;color: #4a9cf8;}
+.post-preview .post-read-more{font-weight:800;color: #d14;}
 @media only screen and (min-width:768px){.post-preview .post-title{font-size:36px;}
 }
 .blog-tags{font-family:'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;color:#999;font-size:15px;margin-bottom:30px;}
@@ -104,7 +104,7 @@ footer .copyright{font-size:16px;}
 .intro-header{margin:80px 0 20px;position:relative;}
 .intro-header.big-img{background:no-repeat center center;-webkit-background-size:cover;-moz-background-size:cover;background-size:cover;-o-background-size:cover;margin-top:51px;margin-bottom:35px;}
 .intro-header.big-img .big-img-transition{position:absolute;width:100%;height:100%;opacity:0;background:no-repeat center center;-webkit-background-size:cover;-moz-background-size:cover;background-size:cover;-o-background-size:cover;-webkit-transition:opacity 1s linear;-moz-transition:opacity 1s linear;transition:opacity 1s linear;}
-.intro-header .page-heading{text-align:center;color: #4a9cf8;}
+.intro-header .page-heading{text-align:center;color: #d14;}
 .intro-header.big-img .page-heading,
 .intro-header.big-img .post-heading{padding:100px 0;color:#FFF;text-shadow:1px 1px 3px #000;}
 .intro-header .page-heading h1{margin-top:0;font-size:50px;}
@@ -112,7 +112,7 @@ footer .copyright{font-size:16px;}
 .intro-header .page-heading .page-subheading,
 .intro-header .post-heading .post-subheading{font-size:27px;line-height:1.1;display:block;font-family:'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-weight:300;margin:10px 0 0;}
 .intro-header .post-heading .post-subheading{margin-bottom:20px;}
-.intro-header .page-heading .page-subheading{color: #fe5a95;}
+.intro-header .page-heading .page-subheading{color: #31708f;}
 .intro-header.big-img .page-heading .page-subheading,
 .intro-header.big-img .post-heading .post-subheading{font-weight:400;}
 .intro-header.big-img .page-heading hr{box-shadow:1px 1px 3px #000;-webkit-box-shadow:1px 1px 3px #000;-moz-box-shadow:1px 1px 3px #000;}
