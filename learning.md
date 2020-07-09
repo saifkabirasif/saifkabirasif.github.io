@@ -89,3 +89,10 @@ This is my non-exhaustive learning log with verifiable links  - not only to show
 
 * Special recognition for outstanding performance in first public **Datathon Bangladesh** in 2019 organized by Axiata Analytics Centre in collaboration with Robi Axiata Limited
 
+### <img src="../img/Tableau.png" style="zoom:45%;" /> **Tableau**
+
+* [Tableau Analyst](https://www.youracclaim.com/badges/4c5a3dee-afc4-43a2-8723-b3edd0b13aac/linked_i) - Tableau Software
+
+### <img src="../img/Scrum.jpg" style="zoom:10%;" /> **Agile Methodology**
+
+* [Certified ScrumMaster (CSM)](http://bcert.me/sayxqywwt) - Scrum Alliance
