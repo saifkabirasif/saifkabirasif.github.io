@@ -35,7 +35,10 @@ iframe{
 This is a tutorial on how to create 100% stack bar chart leveraging the power of Highcharts JS library in R.
 The code will go line by line in the following slides if you touch/click/scroll/press left or right arrow.
 
+For full screen go here - [View full screen](https://saifkabirasif.com/Flipbooks/Highcharts_Stack_100/Highcharts_Stack_100.html)
 
 <iframe src="https://saifkabirasif.com/Flipbooks/Highcharts_Stack_100/Highcharts_Stack_100.html"></iframe>
 
 Do share it if you liked it. For any suggestion, give me a knock on twitter.
+
+```
