@@ -9,6 +9,8 @@ blockquote{color:#808080;font-style:italic;}
 blockquote p:first-child{margin-top:0;}
 hr.small{max-width:100px;margin:15px auto;border-width:4px;border-color:inherit;border-radius:3px;}
 .main-content{padding-top:80px;}
+.main-container h2 {color: #d14;}
+.main-container h3 {color: #41b0a4;}
 @media only screen and (min-width:768px){.main-content{padding-top:130px;}
 }
 .main-explain-area{font-family:'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;padding:15px inherit;}
@@ -21,10 +23,10 @@ img{max-width:100%;}
 .disqus-comments{margin-top:30px;}
 @media only screen and (min-width:768px){.disqus-comments{margin-top:40px;}
 }
-.navbar-custom{background:#d14;border-bottom:1px solid #EAEAEA;font-family:'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;}
+.navbar-custom{background:#d14;border-bottom:1px solid #EAEAEA;font-family:'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;background-image: linear-gradient(#d14, #d14 60%, #d14) }
 .navbar-custom .nav li a{text-transform:uppercase;font-size:12px;letter-spacing:1px;}
 .navbar-custom .navbar-brand,
-.navbar-custom .nav li a{font-weight:800;color:#eee;}
+.navbar-custom .nav li a{font-weight:800;color:#eee !important;}
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus ,
 .navbar-custom .nav li a:hover,
@@ -79,7 +81,7 @@ footer .copyright{font-size:16px;}
 .post-preview a{text-decoration:none;color:#404040;}
 .post-preview a:focus,
 .post-preview a:hover{text-decoration:none;color:#0085a1;}
-.post-preview .post-title{font-size:30px;margin-top:0;color: #337ab7;}
+.post-preview .post-title{font-size:30px;margin-top:0;color: #41b0a4;}
 .post-preview .post-subtitle{margin:0;font-weight:300;margin-bottom:10px;color: #d14;}
 .post-preview .post-meta,
 .post-heading .post-meta{color:#808080;font-size:18px;font-style:italic;margin:0 0 10px;}
