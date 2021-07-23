@@ -1,0 +1,52 @@
+<div class="recent-posts"> 
+
+	<div class="recent-post-header"> 
+		<h3 class="recent-post-text">More from <span class="recent-post-class">SAIF</span> </h3>
+	</div>
+{% assign var_count= 0 %}
+{% for post in site.posts %}
+	{% assign var_tag= {{page.categories}}[0] %}
+	{% if post.tags contains var_tag %}
+			<div class="recent-post-title">
+				<a class="recent-post-a" href="{% if post.link %}{{ post.link }}{% else %}{{site.baseurl}}{{ post.url }}{% endif %}">{{ post.title }}</a>
+			</div>	
+		{% assign var_count= var_count | plus: 1 %}
+			{% if var_count == 5 %}
+				{% break %}
+		{% endif %}
+
+	{% endif %}
+
+{% endfor %}
+
+
+{% if page.author%}
+
+	<div class="recent-post-header"> 
+		<h3 class="recent-post-text"> More from <span class="recent-post-class">{{page.author | upcase}}</span> </h3>
+	</div>
+	{% assign var_count= 0 %}
+	{% for post in site.posts %}
+	{% assign var_tag= {{page.author}} %}
+	{% if post.author contains var_tag %}
+			<div class="recent-post-title">
+				<a class="recent-post-a" href="{% if post.link %}{{ post.link }}{% else %}{{site.baseurl}}{{ post.url }}{% endif %}">{{ post.title }}</a>
+			</div>	
+		{% assign var_count= var_count | plus: 1 %}
+			{% if var_count == 5 %}
+				{% break %}
+		{% endif %}
+
+	{% endif %}
+
+	{% endfor %}
+
+{% endif %}
+
+
+
+
+</div>
+
+
+

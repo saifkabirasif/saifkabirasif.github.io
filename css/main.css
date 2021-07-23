@@ -120,14 +120,23 @@ footer .copyright{font-size:16px;}
 .intro-header.big-img .page-heading hr{box-shadow:1px 1px 3px #000;-webkit-box-shadow:1px 1px 3px #000;-moz-box-shadow:1px 1px 3px #000;}
 .intro-header.big-img .post-heading .post-meta{color:#EEE;}
 .intro-header.big-img .img-desc{background:rgba(30, 30, 30, 0.6);position:absolute;padding:5px 10px;font-size:11px;color:#EEE;font-family:'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;right:0;bottom:0;display:none;}
-@media only screen and (min-width:768px){.intro-header{margin-top:130px;}
+
+@media only screen and (min-width:768px){
+.intro-header{margin-top:130px;}
 .intro-header.big-img{margin-top:91px;}
 .intro-header.big-img .page-heading,
 .intro-header.big-img .post-heading{padding:150px 0;}
 .intro-header .page-heading h1{font-size:80px;}
 .intro-header .post-heading h1{font-size:50px;}
 .intro-header.big-img .img-desc{font-size:14px;}
+.recent-posts {position: sticky;top: 60px;float: right;width: 200px;z-index: 0;margin-top: 100px;max-width: 17%;margin-right: 3%}
+.recent-posts-mob {display: none;}
+.recent-post-a {color: gray;border-bottom-style: solid;border-bottom-color: rgb(65,176,164);font-size: 14px;border-left: 5px solid rgb(242,90,133);padding-left: 5px;}
+.recent-post-class {font-size: 20px;color: rgb(242,90,133);}
+.recent-post-text {font-size: 20px;}
+
 }
+
 .header-section.has-img .no-img{margin-top:0;background:#FCFCFC;margin:0 0 40px;padding:20px 0;box-shadow:0 0 5px #AAA;}
 .header-section.has-img .intro-header.no-img{display:none;}
 @media only screen and (max-width:365px){.header-section.has-img .intro-header.no-img{display:block;}
@@ -169,5 +178,9 @@ td.gutter{padding-top:3px;}
 #social-share-section{margin-bottom:30px;}
 
 @media only screen and (max-width:768px){
-  .article {margin-right: 20px}
+.article {margin-right: 20px}
+.recent-posts {position: sticky;top: 60px;float: right;width: 230px;z-index: -10;margin-top: 100px;max-width: 17%;visibility: hidden;display: none;}
+.recent-post-a {color: gray;border-bottom-style: solid;border-bottom-color: rgb(65,176,164);font-size: 14px;border-left: 5px solid rgb(242,90,133);padding-left: 5px;}
+.recent-post-class {font-size: 20px;color: rgb(242,90,133);}
+.recent-post-text {font-size: 20px;}
 }

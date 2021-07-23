@@ -3,7 +3,8 @@ layout: base
 ---
 
 {% include header.html type="post" %}
-{% include sticky_social.html %}
+
+{% include recent_posts.html %}
 
 <div class="container">
   
@@ -54,6 +55,8 @@ layout: base
       <!--{% include advertising.html %} -->
       {% include ad_1.html %}
       
+	  {% include recent_posts_horiz.html %}
+	  
       {% if page.comments %}
         <div class="disqus-comments">          
           <!--{% include disqus.html %}-->

@@ -5,7 +5,7 @@
 	padding: 0px;
 	margin: 0px;
 	position: fixed;
-	right: -119px;
+	left: 94%;
 	top:130px;
 	width: 200px;
 	z-index: 100;
@@ -14,7 +14,7 @@
 	list-style-type: none;
 	background-color: #333;
 	color: #efefef;
-	height: 30px;
+	height: 20px;
 	padding: 0px;
 	margin: 0px 0px 1px 0px;
 	-webkit-transition:all 0.25s ease-in-out;
@@ -39,9 +39,8 @@
 }
 .sticky li img{
 	float: left;
-	margin: 5px 5px;
-	margin-right: 10px;
-	height: 20px;
+	margin: 3px 2px 3px 0px;
+	height: 10px;
 }
 }
 .sticky li p{
@@ -54,6 +53,7 @@
 
 .sticky li a p{
 	margin: 0px;
+	font-size: 80%;
 }
 
 @media only screen and (max-width:768px){
