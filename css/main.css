@@ -95,6 +95,11 @@ footer .copyright{font-size:16px;}
 .post-image:hover{filter:grayscale(0%);}
 .post-image img{border-radius:100px;height:192px;width:192px;}
 .post-preview .post-read-more{font-weight:800;color: #d14;}
+
+.post-meta_posts{color:#808080;font-size:12px;font-style:italic;margin:0 0 10px;}
+.post-title_posts{font-size:18px;margin-top:0;color: #41b0a4;}
+.post-subtitle_posts{font-size:12px;margin:0;font-weight:300;margin-bottom:10px;color: #d14;}
+.post-preview_posts{padding:10px 10px;border-bottom:1px solid #eee;}
 @media only screen and (min-width:768px){.post-preview .post-title{font-size:36px;}
 }
 .blog-tags{font-family:'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;color:#999;font-size:15px;margin-bottom:30px;}

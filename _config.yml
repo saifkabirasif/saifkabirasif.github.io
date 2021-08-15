@@ -34,7 +34,7 @@ navbar-links:
     - Bangladeshi News Aggregator : "https://insightylitics.com/apps/NewsAggro/"
     
     
-  Home: "http://saifkabirasif.com/"
+  Posts: "blog_posts"
 nav-search: search
 
 # Image to show in the navigation bar - image must be a square (width = height)

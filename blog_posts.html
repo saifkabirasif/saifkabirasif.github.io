@@ -1,0 +1,27 @@
+---
+layout: page
+title: "Saif"
+subtitle: "An Engineer by Profession! Data Enthusiast by Passion!"
+use-site-title: true
+share-img: "/img/PSX_20170603_233446.jpg"
+---
+
+<div class="posts-list">
+  {% for post in site.posts %}
+  <article class="post-preview_posts">
+    <a href="{{ post.url | prepend: site.baseurl }}">
+	  <h5 class="post-meta_posts"> {{ post.date | date: "%B %-d, %Y" }}</h5>
+	  <h4 class="post-title_posts">{{ post.title }}</h4>
+
+	  {% if post.subtitle %}
+	  <h5 class="post-subtitle_posts">
+	    {{ post.subtitle }}
+	  </h5>
+	  {% endif %}
+    </a>
+
+    
+
+   </article>
+  {% endfor %}
+</div>
