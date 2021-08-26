@@ -6,13 +6,13 @@ image: "/img/Presentation.png"
 bigimg: "/img/Presentation.png"
 share-img: "/img/Presentation.png"
 date: 2021-08-26 00:53:00 +0600
-categories: tech
+categories: tutorial
 published: true
 tags:
   - Reflection
   - Analytics
   - Presentation
-  - Tech
+  - tutorial
 ---
 
 
