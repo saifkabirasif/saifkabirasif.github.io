@@ -34,7 +34,7 @@ We often come across claims like **"X district have 100% YoY growth"**.  This do
 
 ![](https://media.giphy.com/media/McgWV3RzDQZZNdFWRA/giphy.gif)
 
-The dreaded **"*"** - often leading to pesky little footnotes that nobody can decode. You see a presentation with superb visualization of growth by districts in a map with the title **'"YoY profit growth by districts*"**. The asterisk leads to footnote saying "New outlets launched within last year excluded". You get standing ovation from audience on that day but may very well get roasted at year end review as those new outlets may be unprofitable.
+The dreaded **"*"** - often leading to pesky little footnotes that nobody can decode. You see a presentation with superb visualization of growth by districts in a map with the title **"YoY profit growth by districts"**. The asterisk leads to footnote saying "New outlets launched within last year excluded". You get standing ovation from audience on that day but may very well get roasted at year end review as those new outlets may be unprofitable.
 
 ## Mind the scales
 
