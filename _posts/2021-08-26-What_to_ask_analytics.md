@@ -65,7 +65,7 @@ That's it folks. To summarize-
 This is my personal opinion and first attempt at sharing my reflections about the world as I see it. 
 You may agree or disagree - that's fine as we all got inherent biases. 
 
-Note - Gifs are sourced for [Giphy](https://giphy.com) and property of individual creators.
+Note - Gifs are sourced from [Giphy](https://giphy.com) and property of individual creators.
 
 
 
