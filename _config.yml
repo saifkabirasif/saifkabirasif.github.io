@@ -27,11 +27,11 @@ description: Telecom Engineer by Profession!Data Enthusiast by Passion!
 navbar-links:
   About Me: "aboutme"
   My Learnings: "learning"
-  Projects:
-    - Facebook Analyzer: "https://insightylitics.com/apps/FB_Insightylitics/"
-    - Demo Cloud File Server: "https://insightylitics.com/apps/Olive/"
-    - Bangladesh Visualized : "https://insightylitics.com/apps/Viz_Bangla/"
-    - Bangladeshi News Aggregator : "https://insightylitics.com/apps/NewsAggro/"
+#  Projects:
+#    - Facebook Analyzer: "https://insightylitics.com/apps/FB_Insightylitics/"
+#    - Demo Cloud File Server: "https://insightylitics.com/apps/Olive/"
+#    - Bangladesh Visualized : "https://insightylitics.com/apps/Viz_Bangla/"
+#    - Bangladeshi News Aggregator : "https://insightylitics.com/apps/NewsAggro/"
     
     
   Posts: "blog_posts"
