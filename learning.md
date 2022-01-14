@@ -1,12 +1,12 @@
 ---
 layout: page
 title: My Learning Logs
-subtitle: Knowledge is the ultimate treasure! Recognitions are byproducts!!
+subtitle: Knowledge is the ultimate treasure! <br> Recognitions are byproducts!!
 ---
 
 I believe that knowledge is the ultimate treasure and it should not be confined by mere academic boundaries imposed by  ancient people. With democratization of learning, it has never been this easier as it is now. A new topic needs just the willingness and attention to learn, all other resources are waiting there for anyone who knows where to look for it.
 
-This is my non-exhaustive learning log with verifiable links  - not only to show off (obvious for a mere mortal) what I have learned so far but also to remind me of how they had profound positive impact on my life thus far.
+This is my non-exhaustive learning log with verifiable links  - not only to show off (obvious for a mere mortal) what I have learned so far but also to remind me of how they have had profound positive impact on my life thus far.
 
 {:.no_toc}
 # Table of contents
@@ -16,27 +16,7 @@ This is my non-exhaustive learning log with verifiable links  - not only to show
 
 
 
-### <img src="../img/python.png" style="zoom:40%;" /> **Python**
-
-#### Basics
-
-* [Introduction to Data Science in Python](https://www.coursera.org/account/accomplishments/verify/EUDYPCB3LZ7C) - University of Michigan  - Coursera
-* [Applied Plotting, Charting & Data Representation in Python](https://www.coursera.org/account/accomplishments/verify/RA3TKZSFCNXK) - University of Michigan - Coursera
-* [An Introduction to Interactive Programming in Python](https://www.coursera.org/api/legacyCertificates.v1/spark/statementOfAccomplishment/972072~7161003/pdf) - Rice University - Coursera
-
-#### Machine Learning
-
-* [Applied Machine Learning in Python](https://www.coursera.org/account/accomplishments/verify/XSC9PJRD64PS) - University of Michigan - Coursera
-
-#### Text  Processing
-
-* [Applied Text Mining in Python](https://www.coursera.org/account/accomplishments/verify/HV8KNJFJLM9A) - University of Michigan - Coursera
-
-#### Network Science
-
-* [Applied Social Network Analysis in Python](https://www.coursera.org/account/accomplishments/records/938BHJVFXYGT) - University of Michigan - Coursera
-
-### <img src="../img/R.svg" style="zoom:25%;" /> **R**
+### <img src="../img/R.svg" style="zoom:23%;" /> **R**
 
 #### Basics
 
@@ -68,26 +48,46 @@ This is my non-exhaustive learning log with verifiable links  - not only to show
 * [Predictive Analytics using Networked Data in R](https://www.datacamp.com/statement-of-accomplishment/course/dcd0fa233211d43177e265647b6d4f188fe8b526) - Datacamp
 * [Network Analysis in R](https://www.datacamp.com/statement-of-accomplishment/course/75e6bc2d83cb457820500872b094dafaff141a2e) - Datacamp
 
+### <img src="../img/python.png" style="zoom:34%;" /> **Python**
 
-### <img src="../img/Big_Data.png" style="zoom:50%;" />  **Big Data**
+#### Basics
+
+* [Introduction to Data Science in Python](https://www.coursera.org/account/accomplishments/verify/EUDYPCB3LZ7C) - University of Michigan  - Coursera
+* [Applied Plotting, Charting & Data Representation in Python](https://www.coursera.org/account/accomplishments/verify/RA3TKZSFCNXK) - University of Michigan - Coursera
+* [An Introduction to Interactive Programming in Python](https://www.coursera.org/api/legacyCertificates.v1/spark/statementOfAccomplishment/972072~7161003/pdf) - Rice University - Coursera
+
+#### Machine Learning
+
+* [Applied Machine Learning in Python](https://www.coursera.org/account/accomplishments/verify/XSC9PJRD64PS) - University of Michigan - Coursera
+
+#### Text  Processing
+
+* [Applied Text Mining in Python](https://www.coursera.org/account/accomplishments/verify/HV8KNJFJLM9A) - University of Michigan - Coursera
+
+#### Network Science
+
+* [Applied Social Network Analysis in Python](https://www.coursera.org/account/accomplishments/records/938BHJVFXYGT) - University of Michigan - Coursera
+
+### <img src="../img/Big_Data.png" style="zoom:47%;" />  **Big Data**
 
 * [Data Science Hands-On with Open Source Tools](https://courses.cognitiveclass.ai/certificates/d26fa0e13bdf4edca6a1cdc5e6e4f7a8) - Cognitive Class -  An IBM initiative
 * [Hadoop 101](https://courses.cognitiveclass.ai/certificates/c7c59de14c93462f9312852e655d6fed) - Cognitive Class -  An IBM initiative
 * [Big Data 101](https://courses.cognitiveclass.ai/certificates/46a97883ad5c4113803c531cc4a49d08) - Cognitive Class -  An IBM initiative
 * [Introduction to Spark in R using sparklyr](https://www.datacamp.com/statement-of-accomplishment/course/7f8a7908e67d7f8a8b6f60e6d6a0ba1687d01f3f) - Datacamp
 
-### <img src="../img/certificate.png" style="zoom:30%;" /> **Multi-course specialization** 
+### <img src="../img/certificate.png" style="zoom:26%;" /> **Multi-course specialization** 
 
 * [Applied Data Science with Python](https://www.coursera.org/account/accomplishments/specialization/certificate/CDT3LC7DV57R)  - University of Michigan - Coursera - 5 Courses - 20 Weeks
 * [Python Programming Track](https://www.datacamp.com/statement-of-accomplishment/track/0a7805367ae595950696bfc404cec2d6d404e250) - Datacamp - 4 Course, 15 Hours
 * [R Programming Track](https://www.datacamp.com/statement-of-accomplishment/track/85e6c5d2c75aecc912f0ae4159c1f49c405f4e0b) - Datacamp - 4 Course, 18 Hours
 * [Statistics Fundamentals with R Track](https://www.datacamp.com/statement-of-accomplishment/track/0197eaa2fa83ff7971cb4725e39824cf25a6917b) - Datacamp - 5 Course, 20 Hours
 * [Importing & Cleaning Data with R Track](https://www.datacamp.com/statement-of-accomplishment/track/b83391b71cd0d6c921bcd35fdccf75408467669d) - Datacamp - 4 Course, 14 Hours
-* [Data Scientist with R Track](https://www.datacamp.com/statement-of-accomplishment/track/c1275bbed27c5137502759f3e88a28bd4d1ae4ab) - Datacamp - 23 Course, 94 Hours
+* [Data Scientist with R Track](https://www.datacamp.com/statement-of-accomplishment/track/c1275bbed27c5137502759f3e88a28bd4d1ae4ab) - Datacamp - 23 Course, 94 Hours - [Renewed 2022 on updated syllabus](https://www.datacamp.com/statement-of-accomplishment/track/d8f75292de3f0df1aa22b99bbfde4c7c86489d0e)
 
-### <img src="../img/win.png" style="zoom:30%;" /> **Competitive achievements**
+### <img src="../img/win.png" style="zoom:26%;" /> **Competitive achievements**
 
-* Special recognition for outstanding performance in first public **Datathon Bangladesh** in 2019 organized by Axiata Analytics Centre in collaboration with Robi Axiata Limited
+* [Special recognition for outstanding performance](https://www.linkedin.com/in/saifkbr/detail/treasury/position:1397985585/?entityUrn=urn%3Ali%3Afsd_profileTreasuryMedia%3A(ACoAAAnkSecBiPVfrsQTC7TE5pEQtWgOh-c7DU8%2C1567054661390)&section=position%3A1397985585&treasuryCount=4) in first public **Datathon Bangladesh** in 2019 organized by Axiata Analytics Centre in collaboration with Robi Axiata Limited
+* Top 10 in ADL AI Summit  [PreHackathon Kaggle Competition](https://www.kaggle.com/c/adl-ai-summit-2021-prehackathon/leaderboard) public and private leaderboard with Team Chunoputi
 
 ### <img src="../img/Tableau.png" style="zoom:45%;" /> **Tableau**
 
@@ -96,3 +96,24 @@ This is my non-exhaustive learning log with verifiable links  - not only to show
 ### <img src="../img/Scrum.jpg" style="zoom:10%;" /> **Agile Methodology**
 
 * [Certified ScrumMaster (CSM)](http://bcert.me/sayxqywwt) - Scrum Alliance
+
+### <img src="../img/Others.PNG" style="zoom:17%;" /> **Miscellaneous**
+
+* [Continuous learning and practice](https://www.datacamp.com/profile/mobijoker) - DataCamp Profile
+* [Continuous learning and practice](https://www.coursera.org/user/c633aa6b555cfd24d9c99747abf8beff) - Coursera Profile
+* Bengali translation of Data Import with R packages like readr,readxl and googlesheets4 published on official [RStudio cheatsheets](https://www.rstudio.com/resources/cheatsheets/) page (Scroll to bottom for translations list- my beloved bangla is there)
+* Few assessments I took for benchmarking thyself in DataCamp (No shareable link - only for planning own learning route) - Scores are in percentile - Higher is better
+	* Understanding and Interpreting Data - 99% (Mar'21)
+	* R Programming - 96% (Dec'21)
+	* Statistics Fundamentals with R - 89% (Dec'21)
+	* Importing & Cleaning Data with R - 95% (Dec'21)
+	* Data Manipulation with R - 89% (Dec'21)
+	* Data Visualization with R - 99% (May'21)
+	* Data Analysis in SQL (PostgreSQL) - 74% (May'21)
+
+
+
+
+
+
+
