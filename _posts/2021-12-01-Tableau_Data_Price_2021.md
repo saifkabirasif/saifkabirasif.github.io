@@ -18,7 +18,7 @@ tags:
 ---
 
 
-For last couple off years, I have been using Tableau extensively for professional purposes. I found Tableau to be  extremely user friendly with very lenient learning curve although automations and integration with R and Python leaves much to be desired. The good thing is that there is a public version of Tableau available for free. 
+For last couple of years, I have been using Tableau extensively for professional purposes. I found Tableau to be  extremely user friendly with very lenient learning curve although automations and integration with R and Python leave much to be desired. The good thing is that there is a public version of Tableau available for free. 
 
 For my first public dashboard, I have chosen to visualize data price per gigabyte of internet across 200+ countries. The data has been  sourced from the excellent [report](https://www.cable.co.uk) by cable.co.uk.
 
@@ -31,7 +31,6 @@ Key dashboard features include -
 You can check out the dashboard below (Switch to full screen for better view) -
 
 <iframe seamless src="https://public.tableau.com/views/PriceperGB-Globalbenchmark/Dashboard1?:showVizHome=no&:embed=true&:device=desktop&:toolbar=no" width="100%" height="500" frameborder="0" scrolling="yes" allowfullscreen="true"></iframe>
-
 Some tips on challenges I faced doing this -
 
 * Finding flags with proper naming to match with Tableau has been a chore. Search for iso2 (2-lettered) country codes
