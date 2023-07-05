@@ -26,7 +26,7 @@ description: Telecom Engineer by Profession!Data Enthusiast by Passion!
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
-  My Learnings: "learning"
+  Learning: "learning"
 #  Projects:
 #    - Facebook Analyzer: "https://insightylitics.com/apps/FB_Insightylitics/"
 #    - Demo Cloud File Server: "https://insightylitics.com/apps/Olive/"
