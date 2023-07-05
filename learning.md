@@ -115,6 +115,8 @@ This is my non-exhaustive learning log with verifiable links  - not only to show
 	* Data Manipulation with R - 89% (Dec'21)
 	* Data Visualization with R - 99% (May'21)
 	* Data Analysis in SQL (PostgreSQL) - ~~74% (May'21)~~ 96% (Jul'23)
+	* Data Management Theory - 82% (Jul'23)
+
 
 
 
