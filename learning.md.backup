@@ -8,6 +8,46 @@ I believe that knowledge is the ultimate treasure and it should not be confined 
 
 This is my non-exhaustive learning log with verifiable links  - not only to show off (obvious for a mere mortal) what I have learned so far but also to remind me of how they have had profound positive impact on my life thus far.
 
+<!-- All Links -->
+
+[lk_Data_Engineer_Associate]: (https://www.datacamp.com/certificate/DEA0010535469218)
+[lk_Tableau_Analyst]: (https://www.youracclaim.com/badges/4c5a3dee-afc4-43a2-8723-b3edd0b13aac/linked_i)
+[lk_HackerRank_SQL_Advanced]: (https://www.hackerrank.com/certificates/1c408f1f12c6)
+[lk_CSM]: (http://bcert.me/sayxqywwt)
+
+
+
+
+
+
+
+
+{:.no_toc}
+### <img src="../img/win.png" style="zoom:26%;" /> **Professional Certifications**
+
+* <img src="../img/data_engineer_associate_badge.png" style="zoom:32%;" /> [**Data Engineer Associate**](https://www.datacamp.com/certificate/DEA0010535469218) - DataCamp
+* <img src="../img/Tableau.png" style="zoom:45%;" /> [**Tableau Analyst**](https://www.youracclaim.com/badges/4c5a3dee-afc4-43a2-8723-b3edd0b13aac/linked_i) - Tableau Software
+* <img src="../img/sql.png" style="zoom:12%;" /> [**SQL (Advanced)**](https://www.hackerrank.com/certificates/1c408f1f12c6) - HackerRank
+* <img src="../img/Scrum.jpg" style="zoom:10%;" /> [**Certified ScrumMaster (CSM)**](http://bcert.me/sayxqywwt) - Scrum Alliance
+
+{:.no_toc}
+### <img src="../img/win.png" style="zoom:26%;" /> **Competitive achievements**
+
+* [Special recognition for outstanding performance](https://www.linkedin.com/in/saifkbr/detail/treasury/position:1397985585/?entityUrn=urn%3Ali%3Afsd_profileTreasuryMedia%3A(ACoAAAnkSecBiPVfrsQTC7TE5pEQtWgOh-c7DU8%2C1567054661390)&section=position%3A1397985585&treasuryCount=4) in first public **Datathon Bangladesh** in 2019 organized by Axiata Analytics Centre in collaboration with Robi Axiata Limited
+* Top 10 in ADL AI Summit  [PreHackathon Kaggle Competition](https://www.kaggle.com/c/adl-ai-summit-2021-prehackathon/leaderboard) public and private leaderboard with Team Chunoputi
+
+{:.no_toc}
+### <img src="../img/win.png" style="zoom:26%;" /> **Learner profile**
+
+* [Continuous learning and practice](https://www.datacamp.com/profile/mobijoker) - DataCamp Profile
+* [Continuous learning and practice](https://www.coursera.org/user/c633aa6b555cfd24d9c99747abf8beff) - Coursera Profile
+
+{:.no_toc}
+### <img src="../img/win.png" style="zoom:26%;" /> **Translation Works**
+
+* Bengali translation of Data Import with R packages like readr,readxl and googlesheets4 published on official [RStudio cheatsheets](https://www.rstudio.com/resources/cheatsheets/) page (Scroll to bottom for translations list- my beloved bangla is there)
+
+
 {:.no_toc}
 # Table of contents
 
@@ -85,29 +125,12 @@ This is my non-exhaustive learning log with verifiable links  - not only to show
 * [Data Scientist with R Track](https://www.datacamp.com/statement-of-accomplishment/track/c1275bbed27c5137502759f3e88a28bd4d1ae4ab) - Datacamp - 23 Course, 94 Hours - [Renewed 2022 on updated syllabus](https://www.datacamp.com/statement-of-accomplishment/track/d8f75292de3f0df1aa22b99bbfde4c7c86489d0e)
 
 
-### <img src="../img/Tableau.png" style="zoom:45%;" /> **Tableau**
 
-* [Tableau Analyst](https://www.youracclaim.com/badges/4c5a3dee-afc4-43a2-8723-b3edd0b13aac/linked_i) - Tableau Software
-
-### <img src="../img/sql.png" style="zoom:10%;" /> **SQL**
-
-* [SQL (Advanced)](https://www.hackerrank.com/certificates/1c408f1f12c6) - HackerRank
-
-### <img src="../img/Scrum.jpg" style="zoom:10%;" /> **Agile Methodology**
-
-* [Certified ScrumMaster (CSM)](http://bcert.me/sayxqywwt) - Scrum Alliance
-
-### <img src="../img/win.png" style="zoom:26%;" /> **Competitive achievements**
-
-* [Special recognition for outstanding performance](https://www.linkedin.com/in/saifkbr/detail/treasury/position:1397985585/?entityUrn=urn%3Ali%3Afsd_profileTreasuryMedia%3A(ACoAAAnkSecBiPVfrsQTC7TE5pEQtWgOh-c7DU8%2C1567054661390)&section=position%3A1397985585&treasuryCount=4) in first public **Datathon Bangladesh** in 2019 organized by Axiata Analytics Centre in collaboration with Robi Axiata Limited
-* Top 10 in ADL AI Summit  [PreHackathon Kaggle Competition](https://www.kaggle.com/c/adl-ai-summit-2021-prehackathon/leaderboard) public and private leaderboard with Team Chunoputi
 
 
 ### <img src="../img/Others.PNG" style="zoom:17%;" /> **Miscellaneous**
 
-* [Continuous learning and practice](https://www.datacamp.com/profile/mobijoker) - DataCamp Profile
-* [Continuous learning and practice](https://www.coursera.org/user/c633aa6b555cfd24d9c99747abf8beff) - Coursera Profile
-* Bengali translation of Data Import with R packages like readr,readxl and googlesheets4 published on official [RStudio cheatsheets](https://www.rstudio.com/resources/cheatsheets/) page (Scroll to bottom for translations list- my beloved bangla is there)
+
 * Few assessments I took for benchmarking thyself in DataCamp (No shareable link - only for planning own learning route) - Scores are in percentile - Higher is better
 	* Understanding and Interpreting Data - 99% (Mar'21)
 	* R Programming - 96% (Dec'21)
@@ -115,7 +138,9 @@ This is my non-exhaustive learning log with verifiable links  - not only to show
 	* Importing & Cleaning Data with R - 95% (Dec'21)
 	* Data Manipulation with R - 89% (Dec'21)
 	* Data Visualization with R - 99% (May'21)
-	* Data Analysis in SQL (PostgreSQL) - 74% (May'21)
+	* Data Analysis in SQL (PostgreSQL) - ~~74% (May'21)~~ 96% (Jul'23)
+	* Data Management Theory - 82% (Jul'23)
+
 
 
 

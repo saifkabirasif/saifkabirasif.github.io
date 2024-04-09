@@ -8,14 +8,89 @@ I believe that knowledge is the ultimate treasure and it should not be confined 
 
 This is my non-exhaustive learning log with verifiable links  - not only to show off (obvious for a mere mortal) what I have learned so far but also to remind me of how they have had profound positive impact on my life thus far.
 
-{:.no_toc}
-# Table of contents
+<!-- All Links -->
 
-* TOC
-{:toc}
+[lk_Data_Engineer_Associate]: (https://www.datacamp.com/certificate/DEA0010535469218)
+[lk_Tableau_Analyst]: (https://www.youracclaim.com/badges/4c5a3dee-afc4-43a2-8723-b3edd0b13aac/linked_i)
+[lk_HackerRank_SQL_Advanced]: (https://www.hackerrank.com/certificates/1c408f1f12c6)
+[lk_CSM]: (http://bcert.me/sayxqywwt)
 
 
 
+{:.badge_header .no_toc}
+### <img src="../img/badges/header_medal.png" style="zoom:26%;" /> **Professional Certifications**
+
+{:.badge_table}
+|||||
+|:---:|:---:|:---:|:---:|
+|[![](../img/badges/badge_data_engineer_associate.png)<br>Data Engineer Associate](https://www.datacamp.com/certificate/DEA0010535469218 "Certified Data Engineering Associate &#013;From: DataCamp &#013;Year: 2023")|[![](../img/badges/badge_Tableau_analyst.png)<br>Tableau Analyst](https://www.youracclaim.com/badges/4c5a3dee-afc4-43a2-8723-b3edd0b13aac/linked_i "Tableau Analyst &#013;From: Tableau Software &#013;Year: 2020")|[![](../img/badges/badge_HackerRank_SQL_Advanced.png)<br>HackerRank SQL Advanced](https://www.hackerrank.com/certificates/1c408f1f12c6 "SQL (Advanced) &#013;From: HackerRank &#013;Year: 2022")|[![](../img/badges/badge_CSM.png)<br>Certified ScrumMaster](http://bcert.me/sayxqywwt "Certified ScrumMaster (CSM) &#013;From: Scrum Alliance &#013;Year: 2021")|
+
+
+
+
+<!-- {:.no_toc}
+### <img src="../img/win.png" style="zoom:26%;" /> **Professional Certifications**
+
+* <img src="../img/data_engineer_associate_badge.png" style="zoom:32%;" /> [**Data Engineer Associate**](https://www.datacamp.com/certificate/DEA0010535469218) - DataCamp
+* <img src="../img/Tableau.png" style="zoom:45%;" /> [**Tableau Analyst**](https://www.youracclaim.com/badges/4c5a3dee-afc4-43a2-8723-b3edd0b13aac/linked_i) - Tableau Software
+* <img src="../img/sql.png" style="zoom:12%;" /> [**SQL (Advanced)**](https://www.hackerrank.com/certificates/1c408f1f12c6) - HackerRank
+* <img src="../img/Scrum.jpg" style="zoom:10%;" /> [**Certified ScrumMaster (CSM)**](http://bcert.me/sayxqywwt) - Scrum Alliance -->
+
+{:.badge_header .no_toc}
+### <img src="../img/badges/header_certificate.png" style="zoom:26%;" /> **Competitive achievements**
+
+* [Special recognition for outstanding performance](https://www.linkedin.com/in/saifkbr/detail/treasury/position:1397985585/?entityUrn=urn%3Ali%3Afsd_profileTreasuryMedia%3A(ACoAAAnkSecBiPVfrsQTC7TE5pEQtWgOh-c7DU8%2C1567054661390)&section=position%3A1397985585&treasuryCount=4) in first public **Datathon Bangladesh** in 2019 organized by Axiata Analytics Centre in collaboration with Robi Axiata Limited
+
+* Top 10 in ADL AI Summit  [PreHackathon Kaggle Competition](https://www.kaggle.com/c/adl-ai-summit-2021-prehackathon/leaderboard) public and private leaderboard with Team Chunoputi
+
+{:.badge_header .no_toc}
+### <img src="../img/badges/header_specialization.png" style="zoom:26%;" /> **Multi-course Specialization**
+
+* [Applied Data Science with Python](https://www.coursera.org/account/accomplishments/specialization/certificate/CDT3LC7DV57R)  - University of Michigan - Coursera - 5 Courses - 20 Weeks
+
+* [Python Programming Track](https://www.datacamp.com/statement-of-accomplishment/track/0a7805367ae595950696bfc404cec2d6d404e250) - Datacamp - 4 Course, 15 Hours
+
+* [R Programming Track](https://www.datacamp.com/statement-of-accomplishment/track/85e6c5d2c75aecc912f0ae4159c1f49c405f4e0b) - Datacamp - 4 Course, 18 Hours
+
+* [Statistics Fundamentals with R Track](https://www.datacamp.com/statement-of-accomplishment/track/0197eaa2fa83ff7971cb4725e39824cf25a6917b) - Datacamp - 5 Course, 20 Hours
+
+* [Importing & Cleaning Data with R Track](https://www.datacamp.com/statement-of-accomplishment/track/b83391b71cd0d6c921bcd35fdccf75408467669d) - Datacamp - 4 Course, 14 Hours
+
+* [Data Scientist with R Track](https://www.datacamp.com/statement-of-accomplishment/track/c1275bbed27c5137502759f3e88a28bd4d1ae4ab) - Datacamp - 23 Course, 94 Hours - [Renewed 2022 on updated syllabus](https://www.datacamp.com/statement-of-accomplishment/track/d8f75292de3f0df1aa22b99bbfde4c7c86489d0e)
+
+
+{:.badge_header .no_toc}
+### <img src="../img/badges/header_profile.png" style="zoom:26%;" /> **Learner Profile**
+
+* [Continuous learning and practice](https://www.datacamp.com/profile/mobijoker) - DataCamp Profile
+
+* [Continuous learning and practice](https://www.coursera.org/user/c633aa6b555cfd24d9c99747abf8beff) - Coursera Profile
+
+
+{:.badge_header .no_toc}
+### <img src="../img/badges/header_translate.png" style="zoom:26%;" /> **Translation Works**
+
+* Bengali translation of Data Import with R packages like readr,readxl and googlesheets4 published on official [RStudio cheatsheets](https://www.rstudio.com/resources/cheatsheets/) page (Scroll to bottom for translations list- my beloved bangla is there)
+
+{:.badge_header .no_toc}
+### <img src="../img/badges/header_assessment.png" style="zoom:26%;" /> **Self-Assessments**
+
+* Few assessments I took for benchmarking thyself in DataCamp (No shareable link - only for planning own learning route) - Scores are in percentile - Higher is better
+
+	* Understanding and Interpreting Data - 99% (Mar'21)
+	* R Programming - 96% (Dec'21)
+	* Statistics Fundamentals with R - 89% (Dec'21)
+	* Importing & Cleaning Data with R - 95% (Dec'21)
+	* Data Manipulation with R - 89% (Dec'21)
+	* Data Visualization with R - 99% (May'21)
+	* Data Analysis in SQL (PostgreSQL) - ~~74% (May'21)~~ 96% (Jul'23)
+	* Data Management Theory - 82% (Jul'23)
+
+
+{:.badge_header .no_toc}
+### <img src="../img/badges/header_misc.png" style="zoom:26%;" /> **Miscellaneous Courses**
+
+{:.badge_subheader .no_toc}
 ### <img src="../img/R.svg" style="zoom:23%;" /> **R**
 
 #### Basics
@@ -48,6 +123,7 @@ This is my non-exhaustive learning log with verifiable links  - not only to show
 * [Predictive Analytics using Networked Data in R](https://www.datacamp.com/statement-of-accomplishment/course/dcd0fa233211d43177e265647b6d4f188fe8b526) - Datacamp
 * [Network Analysis in R](https://www.datacamp.com/statement-of-accomplishment/course/75e6bc2d83cb457820500872b094dafaff141a2e) - Datacamp
 
+{:.badge_subheader .no_toc}
 ### <img src="../img/python.png" style="zoom:34%;" /> **Python**
 
 #### Basics
@@ -68,59 +144,12 @@ This is my non-exhaustive learning log with verifiable links  - not only to show
 
 * [Applied Social Network Analysis in Python](https://www.coursera.org/account/accomplishments/records/938BHJVFXYGT) - University of Michigan - Coursera
 
+{:.badge_subheader .no_toc}
 ### <img src="../img/Big_Data.png" style="zoom:47%;" />  **Big Data**
 
 * [Data Science Hands-On with Open Source Tools](https://courses.cognitiveclass.ai/certificates/d26fa0e13bdf4edca6a1cdc5e6e4f7a8) - Cognitive Class -  An IBM initiative
 * [Hadoop 101](https://courses.cognitiveclass.ai/certificates/c7c59de14c93462f9312852e655d6fed) - Cognitive Class -  An IBM initiative
 * [Big Data 101](https://courses.cognitiveclass.ai/certificates/46a97883ad5c4113803c531cc4a49d08) - Cognitive Class -  An IBM initiative
 * [Introduction to Spark in R using sparklyr](https://www.datacamp.com/statement-of-accomplishment/course/7f8a7908e67d7f8a8b6f60e6d6a0ba1687d01f3f) - Datacamp
-
-### <img src="../img/certificate.png" style="zoom:26%;" /> **Multi-course specialization** 
-
-* [Applied Data Science with Python](https://www.coursera.org/account/accomplishments/specialization/certificate/CDT3LC7DV57R)  - University of Michigan - Coursera - 5 Courses - 20 Weeks
-* [Python Programming Track](https://www.datacamp.com/statement-of-accomplishment/track/0a7805367ae595950696bfc404cec2d6d404e250) - Datacamp - 4 Course, 15 Hours
-* [R Programming Track](https://www.datacamp.com/statement-of-accomplishment/track/85e6c5d2c75aecc912f0ae4159c1f49c405f4e0b) - Datacamp - 4 Course, 18 Hours
-* [Statistics Fundamentals with R Track](https://www.datacamp.com/statement-of-accomplishment/track/0197eaa2fa83ff7971cb4725e39824cf25a6917b) - Datacamp - 5 Course, 20 Hours
-* [Importing & Cleaning Data with R Track](https://www.datacamp.com/statement-of-accomplishment/track/b83391b71cd0d6c921bcd35fdccf75408467669d) - Datacamp - 4 Course, 14 Hours
-* [Data Scientist with R Track](https://www.datacamp.com/statement-of-accomplishment/track/c1275bbed27c5137502759f3e88a28bd4d1ae4ab) - Datacamp - 23 Course, 94 Hours - [Renewed 2022 on updated syllabus](https://www.datacamp.com/statement-of-accomplishment/track/d8f75292de3f0df1aa22b99bbfde4c7c86489d0e)
-
-
-### <img src="../img/Tableau.png" style="zoom:45%;" /> **Tableau**
-
-* [Tableau Analyst](https://www.youracclaim.com/badges/4c5a3dee-afc4-43a2-8723-b3edd0b13aac/linked_i) - Tableau Software
-
-### <img src="../img/sql.png" style="zoom:10%;" /> **SQL**
-
-* [SQL (Advanced)](https://www.hackerrank.com/certificates/1c408f1f12c6) - HackerRank
-
-### <img src="../img/Scrum.jpg" style="zoom:10%;" /> **Agile Methodology**
-
-* [Certified ScrumMaster (CSM)](http://bcert.me/sayxqywwt) - Scrum Alliance
-
-### <img src="../img/win.png" style="zoom:26%;" /> **Competitive achievements**
-
-* [Special recognition for outstanding performance](https://www.linkedin.com/in/saifkbr/detail/treasury/position:1397985585/?entityUrn=urn%3Ali%3Afsd_profileTreasuryMedia%3A(ACoAAAnkSecBiPVfrsQTC7TE5pEQtWgOh-c7DU8%2C1567054661390)&section=position%3A1397985585&treasuryCount=4) in first public **Datathon Bangladesh** in 2019 organized by Axiata Analytics Centre in collaboration with Robi Axiata Limited
-* Top 10 in ADL AI Summit  [PreHackathon Kaggle Competition](https://www.kaggle.com/c/adl-ai-summit-2021-prehackathon/leaderboard) public and private leaderboard with Team Chunoputi
-
-### <img src="../img/Others.PNG" style="zoom:17%;" /> **Miscellaneous**
-
-* [Continuous learning and practice](https://www.datacamp.com/profile/mobijoker) - DataCamp Profile
-* [Continuous learning and practice](https://www.coursera.org/user/c633aa6b555cfd24d9c99747abf8beff) - Coursera Profile
-* Bengali translation of Data Import with R packages like readr,readxl and googlesheets4 published on official [RStudio cheatsheets](https://www.rstudio.com/resources/cheatsheets/) page (Scroll to bottom for translations list- my beloved bangla is there)
-* Few assessments I took for benchmarking thyself in DataCamp (No shareable link - only for planning own learning route) - Scores are in percentile - Higher is better
-	* Understanding and Interpreting Data - 99% (Mar'21)
-	* R Programming - 96% (Dec'21)
-	* Statistics Fundamentals with R - 89% (Dec'21)
-	* Importing & Cleaning Data with R - 95% (Dec'21)
-	* Data Manipulation with R - 89% (Dec'21)
-	* Data Visualization with R - 99% (May'21)
-	* Data Analysis in SQL (PostgreSQL) - ~~74% (May'21)~~ 96% (Jul'23)
-	* Data Management Theory - 82% (Jul'23)
-
-
-
-
-
-
 
 

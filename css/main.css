@@ -214,3 +214,37 @@ td.gutter{padding-top:3px;}
     max-width: 80%;
 	}
 }
+
+/* Badges    */
+table.badge_table tr {border: 0px;}
+table.badge_table tr th {border: 0px;}
+table.badge_table tr td {border: 0px;}
+
+table.badge_table img {
+    height: clamp(50px,20vw,150px);
+    zoom: 100%;
+}
+
+table.badge_table a {
+    color: #c30c3e;
+    font-size: clamp(14px,2vw,18px);
+}
+
+table.badge_table a:hover {
+    color: #c30c3e;
+    font-weight: bold;
+}
+
+.badge_header {
+    text-align: center;
+    font-size: clamp(20px,4vw,28px);
+    background: beige;
+}
+
+.badge_header img {
+    height: clamp(100px,40vw,120px);
+}
+
+.badge_subheader img {
+    height: clamp(100px,40vw,120px);
+}
